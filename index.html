@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="teststyle.css">
+</head>
+<body>
+    <div class="flex border">
+        <div class="one all border"><h1>1</h1></div>
+        <div class="two all border"><h1>2</h1></div>
+        <div class="three all border"><h1>3</h1></div>
+        <div class="four all border"><h1>4</h1></div>
+        <div class="five all border"><h1>5</h1></div>
+
+    </div>
+    <table>
+      <tr> <!-- первая строка с заголовками - поэтому разбиваем на ячейки тегами th -->
+          <th>строка 1 ячейка 1 - заголовок первой колонки</th> 
+          <th>строка 1 ячейка 2 — заголовок второй колонки</th>
+          <th>строка 1 ячейка 3 — заголовок третьей колонки</th>
+          <th> 4 столбец </th>
+      </tr>
+      <tr> <!-- вторая и последующие строки — содержимое, поэтому разбиваем их тегами td-->
+          <td>строка 2 ячейка 1</td>
+          <td>строка 2 ячейка 2</td>
+          <td>строка 2 ячейка 3</td>
+      </tr>
+      <tr>
+        <td colspan="3">Ячейка таблицы</td> <!-- в этой строке только 1 ячейка -->
+    </tr>
+      <tr>
+          <td>строка 3 ячейка 1</td>
+          <td>строка 3 ячейка 2</td>
+          <td>строка 3 ячейка 3</td>
+      </tr>    
+      <tr>
+          <td>строка 4 ячейка 1</td>
+          <td>строка 4 ячейка 2</td>
+          <td>строка 4 ячейка 3</td>
+      </tr>   
+      <tr>
+        <td>строка 4 ячейка 1</td>
+        <td>строка 4 ячейка 2</td>
+        <td>строка 4 ячейка 3</td>
+        <td> 4 столбец 4 строка</td>
+    </tr>    
+  </table> 
+</body>

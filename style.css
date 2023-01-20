@@ -1,0 +1,21 @@
+.flex{
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.border{
+    border: 5px solid rgb(0, 153, 255);
+}
+.all{
+    
+    flex-basis: 180px;
+    height: 100px;
+   
+    
+}
+.two{
+    order: 0;
+}
